@@ -1,7 +1,29 @@
-.App {
-  text-align: center;
+
+.logo {
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
 }
 
+div {
+  background-color:#181818;
+}
+
+p,h2,h4,h1,h3{
+  text-align: center;
+  color: #E0DDDD;
+}
+a{
+  text-decoration:none;
+  color: #2666CB;
+  /* text-underline-position: unset; */
+  /* text-underline-offset: initial; */
+}
+
+/*
+ .App {
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +57,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

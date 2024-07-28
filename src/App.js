@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+import logo from './logo.jpg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        <img src={logo} className='logo' alt="logo" />
+        <h1> האתר בשלבי פיתוח</h1>
+        <h3><a href='https://github.com/NpmStart2'>Github</a> מפתחים? עקבו אחרינו ב </h3>
+        {/* <h2>ג'ונרית? רוצה להיות חלק מהצוות המוביל? צרי איתנו קשר</h2> */}
     </div>
   );
 }
