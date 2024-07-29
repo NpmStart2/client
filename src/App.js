@@ -5,9 +5,9 @@ function App() {
   return (
     <div>
         <img src={logo} className='logo' alt="logo" />
-        <h1> האתר בשלבי פיתוח</h1>
-        <h3><a href='https://github.com/NpmStart2'>Github</a> מפתחים? עקבו אחרינו ב </h3>
-        {/* <h2>ג'ונרית? רוצה להיות חלק מהצוות המוביל? צרי איתנו קשר</h2> */}
+        <h2> ...האתר בשלבי פיתוח</h2>
+        <h1><a href='https://github.com/NpmStart2' target="_blank">Github</a> מפתחים? עקבו אחרינו ב </h1>
+        <h2 className='handwritting'><a href='mailto:npmstart2@gmail.com'>npmstart2@gmail.com</a> ג'ונרית? רוצה להיות חלק מהצוות המוביל? צרי איתנו קשר  </h2>
     </div>
   );
 }
