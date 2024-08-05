@@ -4,7 +4,7 @@ import { Main } from './project/Main';
 function App() {
   return (
     <div className="App">
-            <Main></Main>
+    {/*  <Main></Main> */}
       {/* לא אמור להופיע פה */}
       {/* Home נמצא בקומפוננטת */}
       <img src={`${process.env.PUBLIC_URL}/images/logo.jpg`} className='logo' alt="logo" />
