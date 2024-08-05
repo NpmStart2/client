@@ -1,4 +1,5 @@
 import './css/Home.css'
+import { Login } from './Login'
 
 export const Home = () => {
     return <>
